@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 136, 0); /* Knicks' theme color */
+    margin: 0;
+    padding: 0;
+    color: blue;
+    font-size: 25px;
+}
+
+/* Wrapper for centering content */
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+/* Header styling */
+header {
+    background-color: #1D428A; /* Knicks' blue */
+    background-image: url(NewYork.png);
+    background-repeat: no-repeat;
+    background-position:top;
+    color: white;
+    padding: 200px;
+    text-align:center;
+    font-size: 40px;
+    height: 60px;
+    width: auto;
+}
+
+nav ul {
+    list-style-type:circle;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+nav li a:hover, nav li a.current{
+    color: #000;
+    }
+
+/* Main Content */
+main {
+    padding: 0px;
+}
+
+/* Overview Section Image & List Side by Side */
+.overview {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between image and list */
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.overview img {
+    width: 800px; /* Adjust image size */
+    height: auto;
+}
+
+.overview hgroup {
+    flex: 1;
+    font-size: larger;
+}
+
+/* Footer Styling */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1D428A;
+    color: white;
+    padding: 20px;
+    text-align:left;
+    flex-wrap: wrap;
+}
+
+.footer-text {
+    flex: 1;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.footer img {
+    width:300px;
+    height: 300px;
+   align-content: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    text-align: center;
+    max-width: 1000px;
+    text-wrap-style: balance;
+    margin: auto;
+    width: 90%;
+    font-size: 35px;
+}
+
+.form-group{
+    width: 1000px;
+    box-sizing: content-box;
+}
+
+.players-info{
+    text-align:left;
+    margin: auto;
+    padding: auto;
+}
